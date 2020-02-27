@@ -1,0 +1,43 @@
+body{
+    font-family: Brandon Grotesque;
+    color: #fff;
+    background: #333333;
+    font-style: normal;
+    font-weight: 390;
+    font-size: 1rem;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+}
+footer{
+	height: 150px;
+}
+@font-face {
+    font-family: Brandon Grotesque Regular;
+    src: url(../font/Brandon_reg.otf);
+}
+@font-face {
+    font-family: Brandon Grotesque Black;
+    src: url(../font/Brandon_blk.otf);
+}
+
+.separator{
+    font-family: Brandon Grotesque Black;
+    font-size: 3rem;
+    padding: 0.5em;
+    line-height: 1em;
+    margin: auto 0 auto 0;
+}
+
+.software{
+    width: 50px; 
+    height: 50px; 
+    margin: 0.5em;
+    display: inline-block;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 103px;
+    letter-spacing: 0.1em;
+}
