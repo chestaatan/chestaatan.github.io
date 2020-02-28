@@ -102,8 +102,7 @@ footer{
 
 .imagescroll{
     align-self: flex-end;
-    width: auto;
-    height: auto;
+    width: 100%;
     margin: 2em;
     padding: 2em;
 }
