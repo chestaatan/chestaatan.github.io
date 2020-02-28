@@ -7,73 +7,74 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>portfolio</title>
-    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <!-- <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" /> -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="chestaatan.css" />
   </head>
   <body>
     <div class="container-fluid">
       <div class="faux-logo">
-        <div
-          class
-          style="            
-                display: inline-block;
-                font-family: Brandon Grotesque Black;
-                font-size: 3rem;
-                line-height: 1em;
-                margin-top: 2rem;
-                margin-left: 1rem;
-                padding-right: 1.5rem;
-                border-right: #F9BD57 2px solid;
-            "
-        >
+        <div class="faux-logo-portfolio">
           PORT<br />
           FOLI<br />
           O
         </div>
         <div class>
           <div
-            class
-            style="
-                    font-size: 1.6rem;
-                "
-          >
+            class="faux-logo-name">
             Chester Tan
           </div>
-          <div class>
+          <div class="faux-logo-position">
             Product Designer
           </div>
         </div>
       </div>
+      
+
+      <!-- Blurb -->
+
 
       <div class="row">
-        <div class="col-md-4 separator">SELECTED <br />WORKS</div>
-        <div class="col-md-8">
-          <p>
-            My industry experience in design management has been an extremely
-            varied one as I seek out projects that pique my interest to work on.
-          </p>
-          <p>
-            While the wide range in the scope of work that I do keeps me exposed
-            to different management requirements and technical skillsets, I
-            enjoy the unique challenges that each task poses.
-          </p>
-          <p>
-            This list does not showcase all the projects that I had the
-            privilege to work on butit serves to highlight the breadth of my
-            experience in design and management. I also greatly enjoyed the
-            experience when I was working on them.
-          </p>
+        <div class="container-fluid">
+            <div class="separator">
+                <p>
+                SELECTED <br />WORKS</div>
+                </p>
+            </div>
+        <div class="container-fluid">
+            <div class="separator-blurb">
+            <p>
+                My industry experience in design management has been an extremely
+                varied one as I seek out projects that pique my interest to work on.
+            </p>
+            <p>
+                While the wide range in the scope of work that I do keeps me exposed
+                to different management requirements and technical skillsets, I
+                enjoy the unique challenges that each task poses.
+            </p>
+            <p>
+                This list does not showcase all the projects that I had the
+                privilege to work on but it serves to highlight the breadth of my
+                experience in design and management. I also greatly enjoyed the
+                experience when I was working on them.
+            </p>
+        </div>
         </div>
       </div>
 
+
+      <!-- Selected Works -->
+
+
       <div class="row">
+
         <div class="col">
-          <div class="row">
-            <p><b>Position:</b> Project Lead</p>
+          <div class="projectdescription-position">
+            <p><b>POSITION:</b> <br>PROJECT LEAD</p>
           </div>
-          <div class="row">
+
+          <div class="projectdescription-text">
             <p>
               The Hecate surveillance robot is an outdoor robot designed to
               patrol open outdoor areas with low light and footfall. With an
@@ -87,33 +88,52 @@
             </p>
           </div>
         </div>
+
         <div class="col">
+            <div class="row">
+                <div class="projectname">
+                    <p>
+                    Outdoor Surveillance Robot
+                    </p>
+                  </div>
+            </div>
           <div class="row">
-            <img src="images/hecate.jpg" />
+            <img src="images/hecate.jpg" class="imagescroll"/>
           </div>
           <div class="row">
-            <b>Technical Skills used in Project:</b>
+              <p>
+                Technical Skills used in Project:
+              </p>
           </div>
           <div class="row">
-            <a href="images/logos/Solidworks.png"
-              ><img src="images/logos/Solidworks.png" class="software"
+            <a href="https://www.solidworks.com/"
+              ><img src="images/logos/solidworks.png" class="softwarelink"
             /></a>
-            <a href="images/logos/Solidworks.png"
-              ><img src="images/logos/coreldraw.png" class="software"
+            <a href="https://www.coreldraw.com/en/"
+              ><img src="images/logos/coreldraw.png" class="softwarelink"
             /></a>
-            <a href="images/logos/Solidworks.png"
-              ><img src="images/logos/inDesign.png" class="software"
+            <a href="https://www.adobe.com/products/indesign.html"
+              ><img src="images/logos/inDesign.png" class="softwarelink"
             /></a>
-            <a href="images/logos/Solidworks.png"
-              ><img src="images/logos/lightroom.png" class="software"
+            <a href="https://lightroom.adobe.com/"
+              ><img src="images/logos/lightroom.png" class="softwarelink"
             /></a>
-            <a href="images/logos/Solidworks.png"
-              ><img src="images/logos/python.png" class="software"
+            <a href="https://www.python.org/"
+              ><img src="images/logos/python.png" class="softwarelink"
             /></a>
           </div>
+
+        <!-- <a href="https://www.kickstarter.com/projects/codomo/potato-pirates-the-tastiest-coding-card-game" 
+            class="btn btn-light btn-lg" 
+            role="button">
+            <b>Visit Kickstarter</b>
+        </a> -->
+
         </div>
       </div>
 
+
+      
       <div class="mt-4 mb-4">
         <p class="text-muted text-center small">
           © 2019 binaray<br />
@@ -121,6 +141,7 @@
           prohibited.
         </p>
       </div>
+      
     </div>
   </body>
 </html>
