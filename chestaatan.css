@@ -167,6 +167,16 @@ footer{
     display: inline-block;
 }
 
+.hyperlink_out{
+    font: "Open Sans-Bold";
+    color: #fff;
+    font-style: italic;
+    font-weight: 390;
+    font-size: 0.9rem;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+}
+
 .btn{
     font-family: Open Sans, sans-serif;
     color: rgb(0, 0, 0);
