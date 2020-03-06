@@ -70,7 +70,6 @@
 
 .faux-logo-name{
     display: inline-block;
-    margin-top: 1.5rem;
 
     /* Text */
 
@@ -81,7 +80,6 @@
 
 .faux-logo-position{
     display: inline-block;
-    margin-top: 1.5rem;
 
     /* Text */
 
@@ -95,7 +93,7 @@ body{
         
     /* Text */
 
-    font-family: Open Sans, sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: #fff;
     font-style: normal;
     font-weight: 390;
@@ -129,14 +127,10 @@ footer{
 
 }
 
-.projectname{
-    margin: 2em;
-        
+.position{
     /* Text */
-    
     font-family: Brandon Grotesque Regular, sans-serif;
-    font-size: 2rem;
-    line-height: 1.5em;
+    letter-spacing: 0.1em;
 }
 
 .imagescroll{
