@@ -14,6 +14,8 @@
     src: url(fonts/OpenSans-Regular.ttf);
 }
 
+
+
 .sticky-wrapper {
     z-index: 100;
     width: 100%; }
@@ -90,6 +92,7 @@
 
 body{
     background: #333333;
+    transition: 0.3s all;
         
     /* Text */
 
@@ -124,6 +127,18 @@ footer{
     
     /* Text */
 
+}
+
+.background_alt {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    transition: 0.3s all;
+}
+
+.background {
+    background-color: #333333;
+    color: #fff;
+    transition: 0.3s all;
 }
 
 .position{
